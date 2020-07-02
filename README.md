@@ -1,6 +1,9 @@
 Credits to https://github.com/fkmclane/mkusb !
 
 
+---
+
+
 Create 2 partitions
 
 partition 1, "LIVE", format: fat32, no flag,   size: all that is left from partition_2, content: x.iso
