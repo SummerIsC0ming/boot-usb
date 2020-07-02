@@ -50,3 +50,22 @@ grub.cfg	// (!) to delete this file, do changes, and re-paste this file after ch
 ---
 
 
+Notes:
+
+menuentry "Manjaro kde 20.0.3"  {
+
+	..
+
+    	set pqr="/dev/disk/[UUID-of-the-partition]/$abc"
+
+	...
+
+	linux [params]
+}
+
+// to replace [UUID-of-the-partition] with the UUID of partition 1. find the UUID by e.g. sudo blkid  
+
+// linux [params] as that for language DE
+
+
+
